@@ -1,0 +1,76 @@
+/* .card-area {
+  margin-left: 7.5%
+} */
+
+.friendsContainer {
+  max-width: 95rem;
+  margin: 0 auto;
+  background-color: rgba(192,192,192,0.3);
+  padding-bottom: 2rem;
+}
+
+.noFriends {
+  color: grey;
+  height: 4rem;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+
+}
+
+.currentFriends {
+  color: #ffff;
+  font-size: 3rem;
+  padding: 1rem
+}
+
+.currentFriendsTitle {
+  color: #ffff;
+  margin-top: 5rem;
+  font-size: 3rem;
+  padding: 1rem;
+  border: solid #ffff thin;
+  display: inline-block;
+}
+
+.currentFriendsContainer {
+  background-color: #ffff;
+  margin-top: 2rem;
+}
+
+/*
+
+FRIEND CARD
+
+*/
+
+.friendCard {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: .9rem;
+  margin-left: 1rem;
+  margin-bottom: .9rem;
+}
+
+.friendCardImage {
+  height: 15rem;
+  width: 15rem; 
+}
+
+.friendCardUsername {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  background-color: gray;
+  text-transform: capitalize;
+  width: 15rem; 
+  padding: .2rem 0;
+}
+
+.friendCardMessage {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  background-color: grey;
+  padding: .2rem 0;
+}

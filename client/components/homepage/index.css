@@ -1,0 +1,217 @@
+.container-full-page {
+  max-width: 95rem;
+  margin: 0 auto;
+  /* height: 80vh;
+  background-color: aqua; */
+  padding-bottom: 5rem;
+}
+
+.img-container {
+
+}
+
+.img-container img {
+  height: 20rem;
+  width: 100%;
+  position: relative;
+}
+
+.username-on-image {
+  z-index: 100;
+  position: absolute;
+  bottom: .5rem;
+  left: 26rem;
+  color: #ffff;
+}
+
+.profile-picture {
+  display: inline-block;
+  position: absolute;
+  left: 14rem;
+  top: 8rem;
+}
+
+.profile-picture img {
+  height: 20rem;
+}
+
+.dropzone {
+  z-index: 200;
+}
+
+.friends-list {
+  background-color: #ffff; 
+  opacity: .8;
+  height: 14rem;
+  position: absolute;
+  top: 30rem;
+  width: 86%;
+}
+
+.each-friend {
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
+  margin-right: 1rem;
+  margin-top: .9rem;
+  margin-left: 1rem;
+}
+
+.each-friend-name {
+  background-color: grey; 
+  font-family: Helvetica;
+  font-size: 1rem;
+  text-align: center;
+  top: 1.5rem;
+  color: #ffff;
+}
+
+.friend-image {
+  height: 10rem;
+  width: 10rem;
+}
+
+.secondMainContainer {
+  /* height: 30rem; */
+  width: 100%;
+  /* border: grey solid thin; */
+  margin-top: 22rem;
+}
+
+/*
+
+MAIN CONTAINER LEFT SIDE [USER PERSONAL INFORMATION]
+
+*/
+
+.userInfoContainer {
+  /* height: 10rem; */
+  width: 40%; 
+  margin-right: 2rem;
+  /* border: grey solid thin;  */
+  display: inline-block;
+  vertical-align: top;
+}
+
+.personalInfoIcon {
+  background-color: #1C819F;
+  display: inline-block;
+  border-radius: 10rem;
+  padding: .2rem;
+  color: white;
+  margin: 0 1rem;
+}
+
+.uIContainertitle {
+  color: #1C819F;
+  background-color: #ffff;
+  font-size: 1.6rem; 
+  padding: .5rem 0; 
+}
+
+.statusContainer {
+  background-color: #1C819F;
+  padding: .5rem;
+  padding-bottom: 1.5rem;
+}
+
+.statusInput {
+  padding: 0 1rem;
+  margin-left: 1rem;
+  margin-top: .5rem; 
+  margin-right: .3rem;
+  /* margin: .7rem .3rem; */
+  border: none;
+  height: 2.5rem;
+  width: 32rem;
+}
+
+.personalInfoLabel {
+  color: #fff;
+  margin-left: 1rem;
+  display: block; 
+  margin-top: .5rem;
+}
+
+.statusIcon {
+  display: inline-block;
+  color: #ffff; 
+  border: solid #ffff thin; 
+  padding: .4rem;
+}
+
+.treatsContainer {
+  background-color: #1C819F; 
+  padding: 1rem 0; 
+}
+
+.treatsDropdown {
+  position: relative; 
+  display: inline-block;
+}
+
+.treatsLabel {
+  color: #fff;
+  margin-left: 1.7rem;
+  margin-top: .5rem;
+  margin-right: 1rem;
+}
+
+.treatsBtn {
+  background-color: #ffff; 
+  color: #1C819F; 
+  font-family: 'Galada', cursive;
+  font-size: 1.5rem; 
+  border: none; 
+  padding: .5rem 2rem;
+
+}
+
+.treatsdrop {
+  display: none;
+  position: absolute;
+  background-color: lightgray;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.treatsdrop div {
+  color: #1C819F; 
+  display: block;
+}
+
+.treatsdrop div:hover {
+  background-color:  #1C819F; 
+  color: #fff;
+}
+
+.treatsDropdown:hover .treatsdrop {
+  display: block; 
+}
+
+.friendViewStatus {
+  font-size: 1.2rem; 
+  font-family: Helvetica; 
+  color: #ffff; 
+}
+
+.friendViewStatusDiv {
+  font-size: 1.2rem; 
+  font-family: Helvetica; 
+  color: #ffff; 
+
+}
+/*
+
+MAIN CONTAINER RIGHT SIDE [COMMENTS]
+
+*/
+
+.userComments {
+  /* height: 10rem; */
+  width: 57%; 
+  /* border: grey solid thin;  */
+  display: inline-block;
+}

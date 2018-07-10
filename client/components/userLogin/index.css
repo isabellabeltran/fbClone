@@ -1,0 +1,42 @@
+.login-header {
+  top: 0;
+  padding-top: 20px;
+  padding-left: 30px;
+  margin-top: 0px;
+  background-color: #1C819F;
+  height: 72px;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #1C819F;
+  color: #fff;
+}
+
+.create-account {
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}
+
+.new-username-password {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.agree-terms {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.left-side-Login {
+  margin-top: 77px;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  position: relative;
+  display: block;
+  width: 200px;
+}
+
+.left-picture {
+  margin-left: 50px;
+}
+
+

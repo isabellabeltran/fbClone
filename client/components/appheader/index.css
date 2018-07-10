@@ -1,0 +1,257 @@
+*,
+*::after,
+*::before {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  box-sizing: border-box; 
+} 
+
+/*
+
+LOGIN HEADER 
+
+*/
+
+
+
+.header {
+  background-color: #1C819F; 
+}
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; 
+}
+
+.col-1-of-2 {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo {
+  height: 3rem;
+  display: inline-block;
+  margin-left: 10rem;
+  margin-top: 1.3rem;
+}
+
+.appName {
+  color: #ffff;
+  display: inline-block;
+  font-size: 3.5rem;
+  margin-left: 1.8rem;
+  font-family: 'Galada', cursive;
+  vertical-align: top;
+  margin-top: 2.5rem;
+}
+
+.loginContainer{
+  display: inline-block;
+}
+
+.label {
+  color: #ffff; 
+  margin-top: .5rem; 
+  margin-bottom: .3rem; 
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+.input {
+  border: none;
+  height: 2rem;
+  width: 15rem;
+  margin-right: 1rem;
+}
+
+.forgotAccount {
+  padding-bottom: .3rem;
+  display: inline-block;
+  margin-left: 16rem;
+}
+
+.forgotAccount a {
+  color: #ffff; 
+  font-size: 1rem;
+  font-family: Helvetica; 
+}
+
+.loginBtn {
+  background-color: #ffff;
+  border: none; 
+  color:#1C819F; 
+  padding: .4rem .7rem;
+}
+
+/*
+
+LOGIN MAIN 
+
+*/
+
+.caTitle {
+  color: black; 
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.caSubtitle {
+  color: black;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form {
+  margin: 1.5rem;
+  color: black;
+}
+
+.formContainer {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.input1 {
+  padding: 0 1rem;
+  margin: 0 1rem; 
+  border: none;
+  height: 2.5rem;
+  width: 37rem;
+}
+
+.input2 {
+  padding: 0 1rem;
+  margin: 1rem 1rem; 
+  border: none;
+  height: 2.5rem;
+  width: 37rem;
+  display: block;
+}
+
+.formBtn {
+  background-color: #1C819F;
+  border: none; 
+  color: #ffff; 
+  font-size: 1.3rem;
+  padding: .7rem 2rem; 
+  margin-top: .5rem;
+}
+
+.mainLoginContainer {
+  background-color: #8A99A7; 
+  opacity: .5;
+  height: 83vh; 
+  padding: 2rem;
+  font-family: Helvetica; 
+}
+
+/*
+
+APPLICATION HEADER 
+
+*/
+
+.col-2 {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-3 {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.backHome { 
+  vertical-align: top;
+  padding: .5rem 0;
+  display: inline-block;
+}
+
+.appLogo {
+  height: 2.5rem;
+  display: inline-block;
+  margin-left: 3rem;
+  margin-top: .3rem;
+}
+
+.sContainer {
+  vertical-align: top;
+}
+
+.sContainer div {
+  margin-left: 38rem;
+}
+
+.searchBar {
+  display: inline-block;
+}
+
+.searchForm {
+  margin-left: 1rem;
+  margin-top: .9rem;
+}
+.searchInput {
+  padding: 0 1rem;
+  margin: .7rem .5rem;
+  border: none;
+  height: 2.5rem;
+  width: 37rem;
+}
+.searchBtn {
+  background-color: #ffff;
+  border: none;
+  color: #1C819F;
+  padding: .2rem .4rem;
+  position: absolute;
+  top: .8rem;
+}
+
+.navContainer {
+  display: inline-block;
+  font-size: 1.3rem; 
+  margin-top: 1.2rem;
+  font-family: Helvetica; 
+  letter-spacing: .1rem;
+  font-weight: 100;
+  opacity: .8;
+}
+
+.icon {
+  color: #ffff; 
+  opacity: .6; 
+  display: inline-block;
+}
+
+.link {
+  color: #ffff; 
+  opacity: .8; 
+  display: inline-block;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  cursor: pointer;
+}
+
+.logoutContainer {
+  display: inline-block;
+  margin-left: 42.5rem;
+  margin-top: 1.3rem;
+}
+
+.logoutContainer a {
+  cursor: pointer;
+  color: #ffff; 
+  opacity: .6; 
+  display: inline-block;
+}
