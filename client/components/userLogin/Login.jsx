@@ -5,7 +5,7 @@ const Promise = require('bluebird');
 const bcrypt = Promise.promisifyAll(require('bcrypt-nodejs'));
 import './index.css';
 import {Redirect} from 'react-router-dom';
-import LoginHeader from '../appheader/LoginHeader.jsx';
+// import LoginHeader from '../appheader/LoginHeader.jsx';
 import logo from '../../images/logopb.png';
 
 
